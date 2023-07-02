@@ -1,0 +1,76 @@
+#navb{
+    background: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding:24px;
+}
+#navb ul{letter-spacing:2px;
+    background: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    gap:12px;
+    list-style: none;
+}
+#book{
+    text-decoration: none;
+    color: white;
+    border:solid white 2px;
+    height:50%;
+    padding:5px;
+    border-radius: 7px;
+}
+#navb a:hover{
+    color: yellow;
+    transition: 1s;
+    border-color: blue;
+    
+}
+
+
+#top{letter-spacing:2px;
+    background-color: purple;
+    margin-top: 3%;
+    height:10vh;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 25px;
+    font-size: 24px;
+    
+}
+#mid{margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+#mid img:hover{ 
+    box-shadow: 12px 12px 12px black;
+    transition: 1s;
+}
+
+#mid img{
+    width:95%;
+    margin:12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+
+#foot{padding-left: 2%;
+    padding-right: 2%;
+    padding-top:0;
+    display:flex;
+    background-color: black;
+    color: white;letter-spacing:1px;
+    justify-content: space-between;
+}
+#iconlist{ gap:12px;
+    display:flex;
+    list-style: none;
+}
+#foot ul{ list-style: none;
+
+}
